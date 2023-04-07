@@ -1,0 +1,53 @@
+//code assignment for chapter 2
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main(){
+	//mathematical operation(operator)
+	 int a,b;
+	 cout<<"enter the first integer"<<endl;
+	 cin>>a;
+	 cout<<"enter the second integer"<<endl;
+	 cin>>b;
+	 cout<<"the sum is "<<a+b<<endl;
+	 cout<<"the difference is"<<a-b<<endl;
+	 cout<<"the product is "<<a*b<<endl;
+	 cout<<"the quotient is "<<a/b<<endl;
+	 cout<<"the remainder is "<<a%b<<endl;
+	 //assignment operator
+	 a+=5;
+	 cout<<"a= "<<a<<endl;
+	 a-=5;
+	 cout<<"a= "<<a<<endl;
+	 a*=5;
+	 cout<<"a= "<<a<<endl;
+	 //relational operator
+	 cout<<(a==b)<<endl;
+	 cout<<(a!=b)<<endl;
+	 cout<<(a<=b)<<endl;
+	 cout<<(a>=b)<<endl;
+	 //logical operator
+	 cout<<((a<b)&&(a=b))<<endl;
+	 cout<<((a<b)||(a=b))<<endl;
+	 cout<<!(a<b)<<endl;
+	 //increment or decrement operator
+	 int i=1,j;
+	 j=++i;//preincrement
+	 cout<<"the value of j in preincrement is= " <<j <<" and the value of i is = "<<i <<endl;
+	 j=i++;//post increment
+	 cout<<"the value of j in postincrement is= "<<j <<" and the value of i is = "<<i <<endl;
+	 j=--i;//predecrement
+	  cout<<"the value of j in predecrement is= "<<j <<" and the value of i is = "<<i <<endl;
+	  j=i--;//post decrement
+	  cout<<"the value of j in postdecrement is= "<<j <<" and the value of i is = "<<i <<endl;
+	  //precedence operator
+	  int y;
+	  y=a*b+b-a*b+a*(a/b);
+	  cout<<"the value of y is ="<<y<<endl;
+	  
+	 
+	 
+	 
+	 
+}

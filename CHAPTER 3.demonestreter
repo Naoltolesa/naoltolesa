@@ -1,0 +1,93 @@
+#include<iostream>
+using namespace std;
+int main(){
+	//the one way if statement
+	int i;
+	cout<<"enter any integer value"<<endl;
+	cin>>i;
+	if(i%5==0)
+	cout<<"happy holiday"<<endl;
+	//the two way if else statememnt
+	int grade;
+	cout<<"enter grade of student"<<endl;
+	cin>>grade;
+	if(grade>=60)
+	cout<<"promoted"<<endl;
+	else
+	cout<<"failed"<<endl;
+	//the multiway if else statement
+	float height;
+	cout<<"enter the height of man in meter "<<endl;
+	cin>>height;
+	if(height>1.6)
+	cout<<"the man is short"<<endl;
+	else if(height>1.70)
+	cout<<"the man is medium"<<endl;
+	else if(height>1.80)
+	cout<<"the man is tall"<<endl;
+	else 
+    cout<<"the man is very tall"<<endl;
+    //nested if statemement
+    int testscore,age;
+    cout<<"enter your test score"<<endl;
+    cin>>testscore;
+    cout<<"enter your age"<<endl;
+    cin>>age;
+    if(testscore>=70){
+    	if(age<10)
+    	cout<<"you did a great job";
+    }
+    	else 
+		    cout<<" you did not pass";
+		    //the switch statement
+		    char month;
+		    cout<<"enter the month "<<endl;
+		    cin>>month;
+		    switch(month){
+		    	case 1://january
+		    	case 3://march
+		    	case 5://may
+		    	case 7://july
+		    	case 8://august
+		    	case 10://october
+		    	case 12://december
+		    	   cout<<"this month has 31 days"<<endl;
+		    	   break;
+		    	   case 2://february
+		    	   cout<<" this month has 28 or 29 days"<<endl;
+		    	   break;
+		    	   case 4://april
+		    	   case 6://june
+		    	   case 9://sep[tember
+		    	   case 11://november
+		    	   cout<<"this month has 30 days "<<endl;
+		    	   break;
+		    	   default:cout<<"invalid input"<<endl;
+		    	   }
+		    	//the for loop
+		    	int sum=0,n;
+		    	cout<<"enter number of integer you want to add"<<endl;
+		    	cin>>n;
+		    	for(int i=0;i<=n;i++){
+		    	sum+=i;
+				}
+		          cout<<"the sum is "<<sum<<endl;
+		          //while loop
+		          int yourage;
+		          cout<<" enter your age"<<endl;
+		          
+		          while(yourage<0||yourage>120)
+		          cin>>yourage;
+		          	 cout<<"invalid age"<<endl;
+		      //do while loop
+		      do{
+		      	cout<<"enter your age between 0 and 120"<<endl;
+		      	cin>>yourage;
+		      	cout<<" invalid age"<<endl;
+		      }
+		      	while(yourage<0||yourage>120);
+		      	return 0;
+		      	
+			  }
+		     
+		    	
